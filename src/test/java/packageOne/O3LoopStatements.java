@@ -32,5 +32,44 @@ while (do_while%2!=0);
         System.out.println(cds);
     }
 while (cds<400);
+
+int c=10;
+boolean d=false;
+do{
+    if(c>90) {
+        System.out.println("greater");
+        d = true;
+    }
+    else if(c!=10) {
+        System.out.println("NE");
+        d = true;
+    }
+    else{
+        System.out.println("values not matched in loop");
+        d = true;
+        break;
+    }
+}
+while(d);
+
+int i;
+for (i=0;i<10;i++){
+    if(i==5){
+        continue;
+    }
+    else{
+        System.out.println(i);
+    }
+
+}
+String s;
+int index_pos=0;
+for(s="Hello";s.length()<=10;s=s+"!"){
+    System.out.println(s);
+
+
+        }
+
+        System.out.println(s.substring(1,4));
 }
 }

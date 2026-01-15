@@ -19,7 +19,8 @@ public class O18ExceptionHandling {
         catch(ArithmeticException e2){
             System.out.println("Arithmetic Exception occured");
         }
-catch(Exception e3){
+catch(StringIndexOutOfBoundsException e3){
+    //System.out.println("CHECKNEW");
     e3.printStackTrace();
 }
     }

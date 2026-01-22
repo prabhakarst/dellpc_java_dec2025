@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class O4OpenNewTabAndUtilWindowHandle {
+public class O4UtilForWindowHandle {
     static WebDriver driver;
 
     public static void main(String[] args) {

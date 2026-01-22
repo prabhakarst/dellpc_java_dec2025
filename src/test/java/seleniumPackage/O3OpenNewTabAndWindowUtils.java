@@ -26,6 +26,7 @@ public class O3OpenNewTabAndWindowUtils {
     public static void createNewTab(String newTabURL){
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get(newTabURL);
+
     }
     public static void launchNewWindows(String newWinURL){
         driver.switchTo().newWindow(WindowType.WINDOW);

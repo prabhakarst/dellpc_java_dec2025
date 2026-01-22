@@ -18,7 +18,7 @@ public class O20Arrays {
         }
 
         //convert String to array of characters
-String arr_convert_to_char="Sample Test Data";
+String arr_convert_to_char="Sample Test Data here";
         char[] e1=arr_convert_to_char.toCharArray();
     System.out.println("convert string to array of characters "+ Arrays.toString(e1));
 

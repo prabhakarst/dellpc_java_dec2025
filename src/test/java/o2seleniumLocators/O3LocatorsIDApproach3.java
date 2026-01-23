@@ -10,8 +10,8 @@ public class O3LocatorsIDApproach3 {
 
         WebDriver driver=new ChromeDriver();
         driver.get("https://practicetestautomation.com/practice-test-login/");
-        WebElement element=driver.findElement(By.id("username"));
-        enterUN(element,"admin3");
+        WebElement user_name=driver.findElement(By.id("username"));
+        enterUN(user_name,"admin3");
 
 
     }

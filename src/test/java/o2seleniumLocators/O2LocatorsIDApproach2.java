@@ -1,6 +1,7 @@
 package o2seleniumLocators;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,11 @@ public class O2LocatorsIDApproach2 {
         WebElement element=driver.findElement(By.id("username"));
         element.sendKeys("admin1");
         Thread.sleep(3000);
-        element.sendKeys("admin2");
+        element.sendKeys(Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("123");
+        element.sendKeys(Keys.TAB);
+        WebElement clickbutton=driver.findElement(By.id("Submit"));
+        clickbutton.click();
 
     }
 }

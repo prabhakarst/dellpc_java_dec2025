@@ -14,6 +14,7 @@ public class O3LocatorsIDApproach3 {
         enterUN(user_name,"admin3");
 
 
+
     }
     public static void  enterUN(WebElement element,String un){
         element.sendKeys(un);
